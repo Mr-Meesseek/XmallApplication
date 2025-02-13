@@ -1932,3 +1932,8 @@ section,
   background-color: #fff; /* White background */
   z-index: 1; /* Ensure the box is above the image */
 }
+.stats-item:first-of-type .aka::after {
+  content: "%";
+}.stats-item:first-of-type .nda::after {
+  content: "+";
+}
