@@ -1941,3 +1941,14 @@ section,
 .member {
   padding-top: 25px;
 }
+/* Default font size for all screens */
+.language-text {
+  font-size: 1rem; /* Default size */
+}
+
+/* Font size for small screens (less than 768px) */
+@media (max-width: 767.98px) {
+  .language-text {
+    font-size: 1.55rem; /* Equivalent to Bootstrap's fs-4 */
+  }
+}
