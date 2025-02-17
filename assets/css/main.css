@@ -1399,7 +1399,7 @@ section,
 .team .member span {
   font-style: italic;
   display: block;
-  font-size: 13px;
+  font-size: 1vw;
 }
 
 .team .member .social {
@@ -1928,6 +1928,7 @@ section,
   border-radius: 10px; /* Rounded corners */
   padding: 20px; /* Add padding */
   text-align: center; /* Center text */
+  
   margin-top: -50px; /* Move the box up */
   background-color: #fff; /* White background */
   z-index: 1; /* Ensure the box is above the image */
