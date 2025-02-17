@@ -1937,3 +1937,6 @@ section,
 }.stats-item:first-of-type .nda::after {
   content: "+";
 }
+.member {
+  padding-top: 25px;
+}
