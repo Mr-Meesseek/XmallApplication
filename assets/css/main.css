@@ -2035,3 +2035,15 @@ section,
 {
   border-radius: 50%;
 }
+
+
+
+
+
+
+
+@media (max-width: 767px) {
+  .icon-box {
+    flex-direction: column; 
+  }
+}
