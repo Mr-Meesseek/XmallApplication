@@ -334,11 +334,11 @@ h6 {
     display: none;
     list-style: none;
     position: absolute;
-    inset: 60px 60px 270px 60px;
+    inset: 60px 60px 200px 60px;
     padding: 10px 0;
     margin: 0;
     border-radius: 6px;
-    background-color: var(--nav-mobile-background-color);
+    background-color: #babbbd;
     border: 1px solid color-mix(in srgb, var(--default-color), transparent 90%);
     box-shadow: none;
     overflow-y: auto;
@@ -377,14 +377,14 @@ h6 {
 
   .navmenu a i:hover,
   .navmenu a:focus i:hover {
-    background-color: var(--accent-color);
-    color: var(--contrast-color);
+    background-color:  #003d89;
+    color: #003d89;
   }
 
   .navmenu a:hover,
   .navmenu .active,
   .navmenu .active:focus {
-    color: var(--nav-dropdown-hover-color);
+    color:  #003d89;
   }
 
   .navmenu .active i,
