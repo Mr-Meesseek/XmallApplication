@@ -1985,6 +1985,16 @@ section,
     font-size: 1.55rem; /* Equivalent to Bootstrap's fs-4 */
   }
 }
+@media (max-width: 1500px) {
+  .stats-item:first-of-type .sal::after {
+    content: "M TND";
+    font-size: 22px;
+  }
+  .stats-item:first-of-type .sal::before {
+    content: "+";
+    font-size: 22px;
+  }
+}
 
 .stats-item:first-of-type .sal::after {
   content: "M TND";
